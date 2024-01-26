@@ -37,20 +37,10 @@ Nous avons souvent des cas liés à des versions de navigateurs, ou des versions
 
 ## Objectif de Modernisation
 
-L'objectif est donc de rassembler tout nos projets dans un seul repository.
+L'objectif est donc de rassembler tout nos projets dans un seul repository.   => Monorepo
 Nous souhaiterions des propositions sur l'amélioration :
 - du workflow de développement (éviter les npm link et les PR de sous projets)
 - de la qualité du code et d'un code beaucoup plus homogène
 - éviter les regressions
 - automatiser le plus de choses possibles
 - avoir une documentation à jour
-
-# Karim
-L'objectif est donc de rassembler tout nos projets dans un seul repository. ==> Micro service
-Nous souhaiterions des propositions sur l'amélioration :
-- du workflow de développement (éviter les npm link et les PR de sous projets) ==> ????
-- de la qualité du code et d'un code beaucoup plus homogène ==> Eslint
-- éviter les regressions  ==> Test Unitaires, Jest
-- automatiser le plus de choses possibles ==> Docker, CI/CD
-- avoir une documentation à jour ==> storybook
-
