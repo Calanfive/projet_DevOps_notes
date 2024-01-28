@@ -30,4 +30,27 @@ dans le sujet
 mise en place de sprints etc 
 
 # Questions
-pas encore
+
+Micro services
+Quelles fonctionnalités spécifiques de l'application peuvent être transformées en microservices indépendants ?
+Comment assurer la cohérence et la communication entre les équipes travaillant sur différents microservices ?
+
+Containerisation avec Docker :
+Comment Docker peut-il être utilisé pour containeriser chaque microservice ?
+Comment gérer les dépendances entre microservices dans un environnement Dockerisé ?
+
+Orchestration avec Kubernetes :
+Pourquoi Kubernetes est-il essentiel pour orchestrer le déploiement des microservices ?
+Comment garantir la flexibilité et l'évolutivité des microservices grâce à Kubernetes ?
+
+Chaîne CI/CD Automatisée :
+Comment mettre en place une chaîne CI/CD tenant compte de la séparation entre les équipes scientifiques et de production ?
+Quelles étapes spécifiques doivent être automatisées pour garantir un processus CI/CD fiable ?
+
+Tests Automatisés :
+Comment intégrer des tests automatisés à chaque étape du processus CI/CD ?
+Quels types de tests sont essentiels pour assurer la stabilité des microservices ?
+
+Surveillance et Logging :
+Comment mettre en place une surveillance efficace des microservices en production ?
+Quels mécanismes de logging peuvent aider à identifier rapidement les problèmes potentiels ?
