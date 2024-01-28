@@ -21,12 +21,12 @@
 # Propositions
 L'objectif est donc de rassembler tout nos projets dans un seul repository.   => Monorepo
 Nous souhaiterions des propositions sur l'amélioration :
-- du workflow de développement (éviter les npm link et les PR de sous projets)
-- de la qualité du code et d'un code beaucoup plus homogène
-- éviter les regressions
-- automatiser le plus de choses possibles
-- avoir une documentation à jour
+- du workflow de développement (éviter les npm link et les PR de sous projets) => recherches à faire + créer branche develop
+- de la qualité du code et d'un code beaucoup plus homogène = linter type eslint (comparaison avec d'autres) / Prettier / Husky +++
+- éviter les regressions => test (units)
+- automatiser le plus de choses possibles => CI/CD, Github Actions, Docker
+- avoir une documentation à jour => library (storybook + comparaison autres)
 
 # Cours
-# Source
+# Sources
 # Inspi sujet 1
