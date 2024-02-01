@@ -4,7 +4,7 @@
 - logiciel : config, mise à jour, calibration des paramètrages produit
 - projet application mobile pour config depuis tel (IOS Android)
 - techno : JS - TS - React Native (app) - Electron (deskstop)
-- besoin humain : ++ dev seniors full stack JS au fait de RN et Electron
+- besoin humain : ++ dev seniors full stack JS au fait de ReactNative et Electron
 
 - 5 teams de 10 dev (postes à revoir?)
 - j'intègre l'équipe de DX pour ce projet
