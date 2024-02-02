@@ -18,6 +18,9 @@ Approche hybride poly-as-mono :
 - consultation des historiques et chargement plus lents dûs à la densité du code
 
 # Sources 
-Monorepo vs multi : (https://kinsta.com/fr/blog/mono-repo-vs-multi-repo/#:~:text=L'approche%20mono%2Drepo%20consiste,entreprise%20%E2%80%93%20dans%20un%20seul%20d%C3%A9p%C3%B4t.)
-Monorepo JS : (https://blog.kbdev.io/dev/2021/09/07/monorepo-with-lerna.html)
-Listes d'outils de gestion Monorepo 2021 : (https://blog.bitsrc.io/11-tools-to-build-a-monorepo-in-2021-7ce904821cc2)
+- Monorepo vs multi : (https://kinsta.com/fr/blog/mono-repo-vs-multi-repo/#:~:text=L'approche%20mono%2Drepo%20consiste,entreprise%20%E2%80%93%20dans%20un%20seul%20d%C3%A9p%C3%B4t.)
+- Monorepo JS : (https://blog.kbdev.io/dev/2021/09/07/monorepo-with-lerna.html)
+- Listes d'outils de gestion Monorepo 2021 : (https://blog.bitsrc.io/11-tools-to-build-a-monorepo-in-2021-7ce904821cc2)
+- Exemple Avantages Inconvénients : (https://news.infomaniak.com/monorepo-collaborer-efficacement/)
+- Exemple JS Lerna Darva : (https://www.darva.com/fr/2023/03/02/a-la-decouverte-des-monorepos-pour-partager-son-code-js/)
+- 
