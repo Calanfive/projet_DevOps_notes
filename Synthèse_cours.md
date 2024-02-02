@@ -1,3 +1,21 @@
+## Rappel : qu'est ce que le DevOps ? 
+Le DevOps est ensemble de pratiques qui met l'emphase sur l'automatisation des processus entre les équipes de développement, et les équipes en charge du maintien en conditions opérationnelles de l'application développée.
+Outils mais pas que : histoire de culture et de collaboration entre les développeurs et les opérateurs. Réelle volonté de travailler ensemble.
+Le DevOps résout, en premier lieu, des problèmes humains, des problèmes de communication et des problèmes de responsabilités entre équipes. Dans ce sens, le DevOps se rapproche de l'agilité, mais en incluant d'autres équipes comme les opérations, les testeurs, les designers, les développeurs, les chefs de projet, et en règle générale, toute personne dont les aptitudes sont requises afin de délivrer un produit de qualité.
+(COURS ANTHO)
+
+- IAC : infrastructure as code
+- Test-Driven-Development (TDD) ou le Behavior-Driven-Development (BDD) + tests de performance, les tests de charge ou même les tests de bout-en-bout
+Sur ces types de tests, il est nécessaire d'avoir un environnement configuré correctement pour simuler des contraintes de production, ou des chaînes complètes entre applications. Comme les tests et l'infrastructure sont versionnés au même niveau que le code, tout changement de l'une de ces trois briques (tests, infrastructure et code) relance automatiquement toute la chaîne dans un processus complet. Dès lors, il est facile de rejouer des campagnes de tests de non-régression complète en quelques minutes, ou en quelques heures si la chaîne de bout en bout couvre une grande partie des fonctionnalités.
+- Lean management (amélioration continue et acceptation des erreurs) : types de gaspillage concernés ici :
+  - attente 
+  - étapes inutiles
+  - mouvements inutiles
+  - corrections / retouches
+- KPI ? indicateurs de performance / mesurer l'utilité
+- SRE Site Reliability Engineer : Service Level Indicator / Service Level Objective : latence, trafic, erreurs et saturation
+
+
 ### CI : Détection précoce des problèmes / Livraisons plus fréquentes / Confiance dans le code / Collaboration facilitée / Historique des modifications
 - Compilation : compiler avec Maven, Ant, Gradle, MSBuild, NAnt, Gulp ou Grunt.
 - Tester le code : tests unitaires pour garantir la qualité du code (+ de tests = + de sûreté). Doit être maintenu dans le temps en fonction des évolutions du code.
