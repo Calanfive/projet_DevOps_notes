@@ -26,7 +26,7 @@ Nous souhaiterions des propositions sur l'amélioration :
 - du workflow de développement (éviter les npm link et les PR de sous projets) => recherches à faire Monorepo / pourquoi ? quel outil ? adapté au projet ? + créer branche develop 
 - de la qualité du code et d'un code beaucoup plus homogène = linter type eslint tslint config personnalisée ou config standard (comparaison avec d'autres) / Prettier / Husky +++ / Codecov
 - éviter les regressions / un code fonctionne puis ne fonctionne plus après maj => test (units) describe TDD choisir metrique (demander confirmation), code coverage
-- automatiser le plus de choses possibles => CI/CD, Github Actions, Docker, dockerHub, test end to end, units, build
+- automatiser le plus de choses possibles => CI/CD (Docker), Github Actions, dockerHub, test end to end, units, build
 - avoir une documentation à jour => library (storybook + comparaison autres) jira confliuence atlassian dinosorus
 
 # Cours
