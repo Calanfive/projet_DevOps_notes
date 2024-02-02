@@ -15,7 +15,7 @@
 - besoin de modifier toute les parties lorsque maj produit (ex firmware)
         => Actuellement, si l'on modifie un repository, il faut faire une pull request, attendre la validation, puis faire une release, puis attendre la validation, puis déployer, puis attendre la validation. Et seulement après, il                 faudrait faire la même chose pour les autres repositories concernés par la modification.
           Si je modifie le firmware du capteur d'air. Il faudra changer l'application mobile, l'application desktop, le backend, et le frontend web.
-- partie FRONT : manque de docs / pas de tests automatisés (back : units tests)
+- partie FRONT : manque de docs / pas de tests automatisés (back : units tests) 
 - pas de retour erreurs code / rien de précis
 - erreurs fréquentes liés aux versions de navigateurs / syst expl / firmwares 
 - erreurs de connexion
@@ -26,7 +26,7 @@ Nous souhaiterions des propositions sur l'amélioration :
 - du workflow de développement (éviter les npm link et les PR de sous projets) => recherches à faire Monorepo / pourquoi ? quel outil ? adapté au projet ? + créer branche develop 
 - de la qualité du code et d'un code beaucoup plus homogène = linter type eslint tslint config personnalisée ou config standard (comparaison avec d'autres) / Prettier / Husky +++ / Codecov / parler de la qualité
 - éviter les regressions / un code fonctionne puis ne fonctionne plus après maj => test (units) describe TDD choisir métriques (qualité mesure des données, air eau etc ...) (demander confirmation), code coverage
-- automatiser le plus de choses possibles => CI/CD (Docker), Github Actions, dockerHub, test end to end, units, build (les QA gèrent les tests)
+- automatiser le plus de choses possibles => CI/CD (Docker), Github Actions, dockerHub, test end to end, units, build (les QA gèrent les tests) graphQL
 - avoir une documentation à jour => library (storybook + comparaison autres) jira confliuence atlassian dinosorus
 
 # Cours
