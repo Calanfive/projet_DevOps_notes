@@ -23,11 +23,11 @@
 # Propositions
 L'objectif est donc de rassembler tout nos projets dans un seul repository.   => Monorepo
 Nous souhaiterions des propositions sur l'amélioration :
-- du workflow de développement (éviter les npm link et les PR de sous projets) => recherches à faire + créer branche develop 
-- de la qualité du code et d'un code beaucoup plus homogène = linter type eslint (comparaison avec d'autres) / Prettier / Husky +++
-- éviter les regressions / un code fonctionne puis ne fonctionne plus après maj => test (units) describe 
-- automatiser le plus de choses possibles => CI/CD, microservices? Github Actions, Docker
-- avoir une documentation à jour => library (storybook + comparaison autres)
+- du workflow de développement (éviter les npm link et les PR de sous projets) => recherches à faire Monorepo / pourquoi ? quel outil ? adapté au projet ? + créer branche develop 
+- de la qualité du code et d'un code beaucoup plus homogène = linter type eslint tslint config personnalisée ou config standard (comparaison avec d'autres) / Prettier / Husky +++ / Codecov
+- éviter les regressions / un code fonctionne puis ne fonctionne plus après maj => test (units) describe TDD choisir metrique (demander confirmation)
+- automatiser le plus de choses possibles => CI/CD, Github Actions, Docker, dockerHub, test end to end, units, build
+- avoir une documentation à jour => library (storybook + comparaison autres) jira confliuence atlassian dinosorus
 
 # Cours
 
@@ -106,7 +106,7 @@ Tests avant déploiement
 - tests de performance (système avec charge importante / requêtes et données +++)
 - Outils : JMeter, Apache Bench, Gatling
 - smoke tests : fonctionnalités de base (ex : affichage page web / API code 200)
-- Outils : Selenium, SoapUI, Cypress
+- Outils : Selenium, SoapUI, Cypress, Playwright
 - tests de sécurité (trouver les failles)
 - Outils : Wapiti, Snyk, ZAP (Zed Attack Proxy) d’OWASP
 
