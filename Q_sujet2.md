@@ -29,7 +29,14 @@ Nous souhaiterions des propositions sur l'amélioration :
 - automatiser le plus de choses possibles => CI/CD (Docker), Github Actions, dockerHub, test end to end, units, build (les QA gèrent les tests) graphQL
 - avoir une documentation à jour => library (storybook + comparaison autres) jira confliuence atlassian dinosorus
 
-# Cours
+# Sommaire
+
+Présentation DevOps
+Présentation problèmatique
+
+# Rédaction
+
+J'ai bien compris votre problématique (qui est), c'est pourquoi je préconise la mise en place ... 
 
 # Inspi sujet 1
 - livraison continue / déploiement continu 
