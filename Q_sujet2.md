@@ -31,14 +31,26 @@ Nous souhaiterions des propositions sur l'amélioration :
 
 # Sommaire
 
-Présentation DevOps
 Présentation problèmatique
 
-# Rédaction
+# Monorepo
 
 J'ai bien compris votre problématique qui est la complexité et la fluidité dans les étapes de déplaiement [...], c'est pourquoi je préconise la mise en place d'un monorepository. Un dossier unique qui fera office de plateforme de travail.  
 [workflow](./monorepo.md)
 
+# Qualité
+[qualité](./qualite.md)
+
+# Regressions
+[regressions](./regressions.md)
+
+# Automatisation
+[automatisation](./automatisation.md)
+
+# Documention
+[documentation](./documentation.md)
+
+# Conclusion
 
 # Inspi sujet 1
 - livraison continue / déploiement continu 
