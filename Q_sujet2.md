@@ -36,7 +36,9 @@ Présentation problèmatique
 
 # Rédaction
 
-J'ai bien compris votre problématique (qui est), c'est pourquoi je préconise la mise en place ... 
+J'ai bien compris votre problématique qui est la complexité et la fluidité dans les étapes de déplaiement [...], c'est pourquoi je préconise la mise en place d'un monorepository. Un dossier unique qui fera office de plateforme de travail.  
+[workflow](./monorepo.md)
+
 
 # Inspi sujet 1
 - livraison continue / déploiement continu 
