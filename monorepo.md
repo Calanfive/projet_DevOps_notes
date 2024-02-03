@@ -10,12 +10,36 @@ Les problèmes gérés par cette technique n’arrivent qu’à partir d’une c
 Approche hybride poly-as-mono :
 -  utiliser plusieurs dépôts et employer un outil pour les maintenir synchronisés, le faisant ressembler à un mono-repo mais avec plus de flexibilité.
 
-# Monorepo notes
+POURQUOI ? 
+# Inconvénients d'un multi repository : utilisation actuelle 
+arguments
+
+exemple vscode : npm link et PR de sous projets
+
+# Avantages d'une transition en mono repository
+
+problèmes: consultation des historiques et chargement plus lents dûs à la densité du code
+et surtout mise en garde sur l'utilisation de ce type de repo qui exige un mode de gestion particulier :
+- il est important que les équipes ::: ne puissent pas aller modifier le code des équipes :::
+-
+-
+Pour ceci, je recommande un outil de gestion ... 
+
+# Préconisation d'un outil de gestion
+
+Selection de 3 outils  Check docs tools
+Comparaison 
+Choix 
+ adapté au projet ? pourquoi?
+
+C'est pourquoi le choix de ::: me paraît le plus pertinent pour améliorer le workflow du développement de :::
+branch develop
+
+# Notes
 - outils de gestion de monorepo comme Lerna (installation des dependances dans les sous-dossiers etc évite les duplications)
 
+# Mises en garde pour une transition sans encombre 
 
-# Problème
-- consultation des historiques et chargement plus lents dûs à la densité du code
 
 # Sources 
 - Monorepo vs multi : (https://kinsta.com/fr/blog/mono-repo-vs-multi-repo/#:~:text=L'approche%20mono%2Drepo%20consiste,entreprise%20%E2%80%93%20dans%20un%20seul%20d%C3%A9p%C3%B4t.)
