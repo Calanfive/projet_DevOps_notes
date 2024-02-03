@@ -1,4 +1,6 @@
-# Problèmes du sujet : utilisation actuelle / conséquences
+# Problèmes du sujet : situation actuelle / conséquences
+
+Postes ? QA ? 
 
 # Souhait du client et objectif 
 Amélioration de la qualité du code et code beaucoup plus homogène 
