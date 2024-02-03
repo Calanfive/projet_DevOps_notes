@@ -90,6 +90,14 @@ C'est pourquoi le choix de ::: me paraît le plus pertinent pour améliorer le w
 
 # Mises en garde pour une transition sans encombre 
 
+Il a fallu découper la transition en plusieurs étapes pour éviter un trop gros changement qui aurait pu déclencher une indisponibilité de service, sans possibilité de revenir en arrière. Nous avons donc effectué un long travail de préparation et de validation :
+
+Découpage de la migration en plusieurs phases en intégrant l’impact potentiel pour les collègues.
+Test de chaque étape en amont lorsque cela était possible.
+Détail de chaque étape avec une liste de tâches “prête à l’emploi” pour le jour J.
+Planification des jalons de la migration lors de périodes de faible affluence.
+Simulation de scénarios de crise pour anticiper les problèmes et prévoir les actions à mettre en oeuvre.
+Notre équipe a aussi élaboré des procédures de documentation des incidents pour permettre le rétropédalage dans une certaine mesure.
 
 # Sources 
 - Monorepo vs multi : (https://kinsta.com/fr/blog/mono-repo-vs-multi-repo/#:~:text=L'approche%20mono%2Drepo%20consiste,entreprise%20%E2%80%93%20dans%20un%20seul%20d%C3%A9p%C3%B4t.)
