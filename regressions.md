@@ -1,0 +1,4 @@
+-
+-
+-
+- éviter les regressions / un code fonctionne puis ne fonctionne plus après maj => test (units) describe TDD choisir métriques (qualité mesure des données, air eau etc ...) (demander confirmation), code coverage
