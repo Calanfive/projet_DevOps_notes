@@ -33,6 +33,12 @@ Nous souhaiterions des propositions sur l'amélioration :
 
 Présentation problèmatique
 
+IOT : 4 points importants / qualité sécurité réactivité monitoring
+(https://www.youtube.com/watch?v=LPNMlP165v4)
+=> tests fréquents = métriques ? 
+(https://www.milesweb.in/blog/technology-hub/what-is-the-connection-between-iot-and-devops/)
+(https://devops.com/a-devops-guide-to-iot-technology/)
+
 # Monorepo
 
 J'ai bien compris votre problématique qui est la complexité et la fluidité dans les étapes de déplaiement [...], c'est pourquoi je préconise la mise en place d'un monorepository. Un dossier unique qui fera office de plateforme de travail.  
@@ -52,8 +58,7 @@ J'ai bien compris votre problématique qui est la complexité et la fluidité da
 
 # Conclusion
 
-IOT : 4 points importants / qualité sécurité réactivité monitoring
-(https://www.youtube.com/watch?v=LPNMlP165v4)
+
 
 # Inspi sujet 1
 - livraison continue / déploiement continu 
