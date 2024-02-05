@@ -52,5 +52,8 @@ J'ai bien compris votre problématique qui est la complexité et la fluidité da
 
 # Conclusion
 
+IOT : 4 points importants / qualité sécurité réactivité monitoring
+(https://www.youtube.com/watch?v=LPNMlP165v4)
+
 # Inspi sujet 1
 - livraison continue / déploiement continu 
