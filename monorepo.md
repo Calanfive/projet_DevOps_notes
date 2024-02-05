@@ -31,8 +31,6 @@ arguments
 
 - La possibilité d'exécuter n'importe quelle commande sur plusieurs machines tout en développant localement (la visualisation du graphique de dépendance est accèssible via l'outil de gestion)
 - Détection des projets/packages concernés (pour exécuter uniquement les projets concernés par la génération/test)
-- 
-
 
 Malgré ce que disent les gens, ils :
 - Offrez-vous plus de flexibilité de déploiement
@@ -52,7 +50,6 @@ et surtout mise en garde sur l'utilisation de ce type de repo qui exige un mode 
 - s'assurer que les projets backend n'importent pas ceux du frontend
 - Contraintes et visibilité du projet
 
-
 Plus l'espace de travail s'agrandit, plus vous aurez besoin d'outils pour vous aider à le maintenir rapide, compréhensible et gérable.
 
 Un monorepository contient différents projets dont les relations sont bien définies. 
@@ -64,19 +61,17 @@ Moon / Nx / Pants
 [AFFICHER LOGOS]
 
 Comparaison 
-Rapide 
++ Rapide 
 Mise en cache des calculs locaux
 Orchestration des tâches locales
 Mise en cache des calculs distribués
 Exécution de tâches distribuées -> Pants Nx
 Exécution à distance transparente -> Pants
 Détection des projets/packages concernés
-
-Compréhensible
++ Compréhensible
 Analyse de l'espace de travail
 Visualisation du graphique de dépendance -> Pants pas inclus
-
-Maniable
++ Maniable
 Partage de Code
 Outillage cohérent
 Génération de code
@@ -85,6 +80,8 @@ Contraintes et visibilité du projet -> Pants pas inclus
 Choix 
 Adapté au projet ? pourquoi?
 CF situation actuelles et réponses apportées
+
+[SCREENSHOTS] graph type / +++ / config cool via l'extension NX
 
 C'est pourquoi le choix de ::: me paraît le plus pertinent pour améliorer le workflow du développement de :::
 
