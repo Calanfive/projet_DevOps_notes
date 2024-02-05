@@ -17,8 +17,8 @@ arguments
 - Duplication de code importante
 - Modifications coûteuses entre dépôts croisés pour les bibliothèques partagées et les consommateurs + effort de coordination du versioning et de la publication des packages
 - Outillage incohérent
-- PR long
-exemple vscode : npm link et PR de sous projets
+- PR long trop d'étapes 
+- npm link (https://medium.com/@ammarameer/linking-multiple-repositories-using-npm-for-seamless-local-development-2a1c2ca14257)
 
 [SCHEMA COMPARATIF]
 
