@@ -27,5 +27,12 @@ Il est installé dans le package initial. Une documentation permet sa configurat
 Documentation NX Storybook : (https://nx.dev/nx-api/storybook)
 
 La force de NX est de générer les plugins nécessaires à l'automatisation de la génération, des tests et de la construction de fichiers Storybook.
+Ceci vient répondre à la problématique de l'intégration des développeurs sur la partie front mais aussi, elle apporte un soutien non négligeable au QA qui n'aura pas besoin de gérer cette partie. 
+En effet, la configuration de NX va suffir à test indiviuellement chaque composant avant intégration et déploiement.
+
+Nous avons également de plus en plus de mal à intégrer nos développeurs sur la partie front. Certains réclames des documentations ou des tests mais notre QA ne fait que des tests physiques et n'a pas le temps de faire des tests automatisés. Sur le back et l'electronique les développeurs utilisent des tests unitaires mais sur le front rien n'est fait.
 
 # Sources
+-
+-
+-
