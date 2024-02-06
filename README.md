@@ -33,11 +33,14 @@ Nous souhaiterions des propositions sur l'amélioration :
 
 Présentation problèmatique
 
+Recherches IOT : 
 IOT : 4 points importants / qualité sécurité réactivité monitoring
 (https://www.youtube.com/watch?v=LPNMlP165v4)
 => tests fréquents = métriques ? 
 (https://www.milesweb.in/blog/technology-hub/what-is-the-connection-between-iot-and-devops/)
 (https://devops.com/a-devops-guide-to-iot-technology/)
+=> JS IOT : (https://www.moussasoft.com/javascript-et-iot-analyse-framework-johnny-five)
+Top 10 javascript framework use in IOT : (https://medium.com/@softapptechnologies5/top-10-javascript-framework-use-in-iot-f915247645b5)
 
 # Monorepo
 
