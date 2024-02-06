@@ -45,7 +45,7 @@ Top 10 javascript framework use in IOT : (https://medium.com/@softapptechnologie
 # Monorepo
 
 J'ai bien compris votre problématique qui est la complexité et la fluidité dans les étapes de déplaiement [...], c'est pourquoi je préconise la mise en place d'un monorepository. Un dossier unique qui fera office de plateforme de travail.  
-[workflow](./monorepo.md)
+[monorepo](./monorepo.md)
 
 # Qualité
 [qualité](./qualite.md)
