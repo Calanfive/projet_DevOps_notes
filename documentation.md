@@ -22,13 +22,15 @@ Je préconise la mise en place d'une librairie multi-fonctions nommée Storybook
   
 Pourquoi Storybook ici : (https://www.troispointzero.fr/le-blog/storybook-developpement-de-composants/)
 
+De plus, il est très utilisé dans la communauté React et très bien maintenu.
+
 De plus, l'utilisation de l'outil de gestion monorepository NX facilite grandement son utilisation.
 Il est installé dans le package initial. Une documentation permet sa configuration pour une utilisation automatisée qui viendra offrir un gain de temps considérable aux équipes de développement front.
 Documentation NX Storybook : (https://nx.dev/nx-api/storybook)
 
 La force de NX est de générer les plugins nécessaires à l'automatisation de la génération, des tests et de la construction de fichiers Storybook.
 Ceci vient répondre à la problématique de l'intégration des développeurs sur la partie front mais aussi, elle apporte un soutien non négligeable au QA qui n'aura pas besoin de gérer cette partie. 
-En effet, la configuration de NX va suffir à test indiviuellement chaque composant avant intégration et déploiement.
+En effet, la configuration de NX va suffir à test individuellement chaque composant avant intégration et déploiement.
 
 # Sources
 -
