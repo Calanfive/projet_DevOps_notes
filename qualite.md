@@ -19,9 +19,12 @@ Je recommande donc l'utilisation et l'exploitation du linter ESLint qui par chan
 Config perso
 Vous trouverez ci-dessous un exemple de configuration de l'outil ESLint. Cette configuration est a effectuer dans le fichier .eslintrc.json comme suit :
 [SCREENSHOT CONFIG ESLINT]
-Comme vous le constatez, un grand nombre de règles peuvent être appliquées à l'ensemble de l'espace de travail. Toutes les règles sont disponibles sur la documentation d'ESLint : (https://eslint.org/docs/latest/rules/)
+Comme vous le constatez, un grand nombre de règles peuvent être appliquées à l'ensemble de l'espace de travail. Toutes ces règles sont disponibles sur la documentation d'ESLint : (https://eslint.org/docs/latest/rules/)
+
 Ceci aura pour effet immédiat d'instaurer des règles communes à tous les projets et ce de façon automatique grâce à l'affichage d'erreurs en phase de développement et des propositions de solutions comme l'indique l'exemple ci-dessous :
 [SCREENSHOIT ERREUR + PROPOSITIONS AUTO ESLINT]
+
+Selon le choix des équipes, ces règles peuvent être appliquées à certains projets seulement. C'est pourquoi il serait intéressant de mettre en place des enquêtes auprès du personnel concerné. Ces enquêtes permetteraient d'être à l'écoute des préférences des équipes techniques. Une démarche évolutif et inclusive, (côté mise à jour à mettre en avant) va éviter d'imposer les mêmes règles à tous les projets (souligner les conflits probables entre electron et react native). 
 
 Enfin, il est également possible de configurer son linter de façon plus rapide. En effet, lors de l'installation de l'outil, il nous est proposé d'utiliser un mode dit 'standard' ou 'xo'. Les modes les plus connus sont 'airbnb' et 'google' mais après simulation j'ai réalisé qu'ils n'étaient plus d'actualité à ce jour. 
 
