@@ -50,9 +50,6 @@ J'ai bien compris votre problématique qui est la complexité et la fluidité da
 # Qualité
 [qualité](./qualite.md)
 
-# Regressions
-[regressions](./regressions.md)
-
 # Automatisation
 [automatisation](./automatisation.md)
 
