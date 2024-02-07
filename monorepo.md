@@ -3,7 +3,7 @@
 - permet de soumettre toutes les modifications effectués sur plusieurs plusieurs parties du projet avec une seule pull request
 - permet un partage des mêmes méthodes de programmation et des outils de développement
 - fluidifie toutes les étapes de livraison de l'application
-
+- évite les régressions
 
 Les problèmes gérés par cette technique n’arrivent qu’à partir d’une certaine échelle.
 
