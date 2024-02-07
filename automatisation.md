@@ -44,6 +44,8 @@ A commencer par la miste en place de tests unitaires. Ces tests pourront être i
 Appliqués tout le long du développement, ces tests vont permettre un feedback rapide. Les demandes de correction seront alors rapidement mis en place.
 Ce type de test aura aussi comme intérêt de sécuriser la maintenance grâce à plus de réactivité
 
+Choisir outil de test : JEST etc
+
 Ensuite, il semble essentiel de créer des tests d'intégration pour tester le fonctionnement global de l'application.
 code coverage ? 
 
