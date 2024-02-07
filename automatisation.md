@@ -21,6 +21,10 @@ Pour répondre à ces différentes problématiques, je recommande la mise en pla
 - les régressions
 - les problèmes de compatibilité
 
+AST(Static Application Security Testing) peut être lancé en même temps que les tests unitaires
+DAST(Dynamic Application Security Testing)
+IAST(Interactive Application Security Testing)
+
 Ensuite, il va automatiser toutes les étapes de compilation, de test, de vérification de la qualité du code et de packaging.
 Les phases disctinctes de ce pipeline seront lancées successivement, lors de chaque nouveau push du code sur NX.
 
