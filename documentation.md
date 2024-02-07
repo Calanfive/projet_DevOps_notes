@@ -13,7 +13,11 @@ Docusaurus est un générateur de site statique monopage. Il conçoit rapidement
 - simple dans son utilisation
 - rapidement exploitable
 
+Aborder le fait que MDX c'est coooool
+
  # Choix et justifications
+
+AU LIEU DE FAIRE UN CHOIX UNIQUE, POURQUOI NE PAS TOUS LES UTILISER ENSEMBLE ...
 Après ces deux suggestions, je souhaite aborder le produit qui selon moi sera le plus adapté de par sa performance et sa polyvalence.
 Je préconise la mise en place d'une librairie multi-fonctions nommée Storybook. Elle me semble la plus intéressante car elle fournit des services tels que :
 - la création de documention
