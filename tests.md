@@ -74,3 +74,4 @@ tests de performance
 Deploy Operate
 
 # Sources
+- Circle CI : (https://nx.dev/ci/intro/tutorials/circle)
