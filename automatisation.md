@@ -30,6 +30,13 @@ Les phases disctinctes de ce pipeline seront lancées successivement, lors de ch
 
 Pour automatiser ce CI, je recommande l'utilisation de workflows paramètrables via un fichier .yml. Plus communément utilsé sur Github Actions, cet outil est également présent sur n'importe quel système CI (Jenkins, Travis, Circle CI, GitLab CI, etc.)
 
+Dans notre cas, nous utiliserons le Circle CI NX qui permettra de :
+- exécuter des tâches uniquement pour les projets affectés par un PR donné
+- activer la mise en cache à distance
+- paralléliser et répartir les tâches sur plusieurs machines
+
+[SCREENSHOT yml]
+
 # Tests
 A commencer par la miste en place de tests unitaires. Ces tests pourront être implémenter et largement facilités via l'outil de gestion NX comme suit :
 [SCREENSHOT ? ]
@@ -45,7 +52,10 @@ Choix. Adapté au projet ?
 Screen
 
 
-Après la phase d'intégration continue, viendra la création d'une image exploitable sur Dockerhub. Cela permettra la conteneurisation de notre application, premirèe étape du déploiement.
+Après la phase d'intégration continue, viendra la création d'une image exploitable sur Dockerhub. Cela permettra la conteneurisation de notre application, premirèe étape du déploiement continu.
+
+[SCREENSHOT DOCKERHUB OU IMAGE OU LES DEUX]
+Explication des illustrations 
 
 # CD
 Le déploiement en continu s’appuie sur l’intégration en continu. Lorsque le nouveau code est “ commité ” (validé et enregistré) et a passé les tests d’intégration en continu, le code est déployé automatiquement en production. Une nouvelle fois avec les fichiers yml, on peut créer des workflows de déploiement personnalisés.
