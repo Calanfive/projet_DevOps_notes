@@ -20,12 +20,18 @@
 - erreurs fréquentes liés aux versions de navigateurs / syst expl / firmwares 
 - erreurs de connexion
 
+- Nous avons également de plus en plus de mal à intégrer nos développeurs sur la partie front. Certains réclames des documentations ou des tests mais notre QA ne fait que des tests physiques et n'a pas le temps de faire des tests automatisés. Sur le back et l'electronique les développeurs utilisent des tests unitaires mais sur le front rien n'est fait.
+- du mal à analyser les erreurs rencontrées par nos utilisateurs
+- avoir des informations plus précises sur le code qui ne fonctionne pas, retours d'erreurs, etc...
+- cas liés à des versions de navigateurs, ou des versions de systèmes d'exploitation, ou encore des versions de firmwares. Mais aussi des problèmes de connexions.
+- avoir des informations plus précises sur ces cas là.
+
 # Propositions
 L'objectif est donc de rassembler tout nos projets dans un seul repository.   => Monorepo
 Nous souhaiterions des propositions sur l'amélioration :
 - du workflow de développement (éviter les npm link et les PR de sous projets) => recherches à faire Monorepo / pourquoi ? quel outil ? adapté au projet ? + créer branche develop 
 - de la qualité du code et d'un code beaucoup plus homogène = linter type eslint tslint config personnalisée ou config standard (comparaison avec d'autres) / Prettier / Husky +++ / Codecov / parler de la qualité
-- éviter les regressions / un code fonctionne puis ne fonctionne plus après maj => test (units) describe TDD choisir métriques (qualité mesure des données, air eau etc ...) (demander confirmation), code coverage
+- éviter les regressions / un code fonctionne puis ne fonctionne plus après maj => test (units) describe TDD 
 - automatiser le plus de choses possibles => CI/CD (Docker), Github Actions, dockerHub, test end to end, units, build (les QA gèrent les tests) graphQL
 - avoir une documentation à jour => library (storybook + comparaison autres) jira confliuence atlassian dinosorus
 
