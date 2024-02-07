@@ -56,7 +56,8 @@ J'ai bien compris votre problématique qui est la complexité et la fluidité da
 # Qualité
 [qualité](./qualite.md)
 
-# Automatisation
+# Test
+[tests](./tests.md)
 [automatisation](./automatisation.md)
 
 # Documention
